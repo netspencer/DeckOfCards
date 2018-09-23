@@ -9,8 +9,6 @@
 import UIKit
 import RxSwift
 import RxCocoa
-import Moya
-import RxMoya
 
 protocol CardListViewControllerDelegate: class {
     func didSelect(card: Card)
@@ -20,12 +18,15 @@ class CardListViewController: UITableViewController {
 
     let disposeBag = DisposeBag()
 
+    let viewModel = CardListViewModel()
+
     weak var delegate: CardListViewControllerDelegate?
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.setup()
+        self.bind()
     }
 
 }
@@ -34,15 +35,10 @@ extension CardListViewController {
 
     private func setup() {
         self.navigationItem.title = "Deck of Cards"
+    }
 
-        let api = MoyaProvider<DeckOfCards>()
-        api.rx.request(.newDeck)
-            .subscribe(onSuccess: { response in
-                debugPrint(response.data)
-            }) { (error) in
-                debugPrint("error: \(error)")
-            }
-            .disposed(by: self.disposeBag)
+    private func bind() {
+        viewModel.getNewShuffledDeck()
     }
 
 }

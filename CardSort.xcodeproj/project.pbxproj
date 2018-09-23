@@ -16,7 +16,54 @@
 		0988F8212157EBEE007EB6A6 /* CardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0988F8202157EBEE007EB6A6 /* CardListViewController.swift */; };
 		0988F8232157F0DB007EB6A6 /* CardListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0988F8222157F0DB007EB6A6 /* CardListViewModel.swift */; };
 		0988F8252157F4DE007EB6A6 /* DeckOfCardsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0988F8242157F4DE007EB6A6 /* DeckOfCardsAPI.swift */; };
+		0988F83221580212007EB6A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0988F83121580212007EB6A6 /* Assets.xcassets */; };
+		09E07EDF215802DD003FD668 /* Differentiator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F80621568F91007EB6A6 /* Differentiator.framework */; };
+		09E07EE0215802DD003FD668 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F82B2157FB6E007EB6A6 /* Moya.framework */; };
+		09E07EE1215802DD003FD668 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F80821568F91007EB6A6 /* RxCocoa.framework */; };
+		09E07EE2215802DD003FD668 /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F80721568F91007EB6A6 /* RxDataSources.framework */; };
+		09E07EE3215802DD003FD668 /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F8262157F51C007EB6A6 /* RxMoya.framework */; };
+		09E07EE4215802DD003FD668 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F80921568F91007EB6A6 /* RxSwift.framework */; };
+		09E07EE7215802DD003FD668 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E07EE5215802DD003FD668 /* Alamofire.framework */; };
+		09E07EE8215802DD003FD668 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E07EE6215802DD003FD668 /* Result.framework */; };
+		09E07EE9215802E6003FD668 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E07EE5215802DD003FD668 /* Alamofire.framework */; };
+		09E07EEA215802E6003FD668 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09E07EE5215802DD003FD668 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		09E07EEB215802E6003FD668 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E07EE6215802DD003FD668 /* Result.framework */; };
+		09E07EEC215802E6003FD668 /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09E07EE6215802DD003FD668 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		09E07EED215802E6003FD668 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F82B2157FB6E007EB6A6 /* Moya.framework */; };
+		09E07EEE215802E6003FD668 /* Moya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F82B2157FB6E007EB6A6 /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		09E07EEF215802E6003FD668 /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F8262157F51C007EB6A6 /* RxMoya.framework */; };
+		09E07EF0215802E6003FD668 /* RxMoya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F8262157F51C007EB6A6 /* RxMoya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		09E07EF1215802E6003FD668 /* Differentiator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F80621568F91007EB6A6 /* Differentiator.framework */; };
+		09E07EF2215802E6003FD668 /* Differentiator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F80621568F91007EB6A6 /* Differentiator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		09E07EF3215802E6003FD668 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F80821568F91007EB6A6 /* RxCocoa.framework */; };
+		09E07EF4215802E6003FD668 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F80821568F91007EB6A6 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		09E07EF5215802E6003FD668 /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F80721568F91007EB6A6 /* RxDataSources.framework */; };
+		09E07EF6215802E6003FD668 /* RxDataSources.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F80721568F91007EB6A6 /* RxDataSources.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		09E07EF7215802E6003FD668 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F80921568F91007EB6A6 /* RxSwift.framework */; };
+		09E07EF8215802E6003FD668 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F80921568F91007EB6A6 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		09E07EFB21580A6F003FD668 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E07EFA21580A6F003FD668 /* Deck.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		09E07EF9215802E6003FD668 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				09E07EF4215802E6003FD668 /* RxCocoa.framework in Embed Frameworks */,
+				09E07EF0215802E6003FD668 /* RxMoya.framework in Embed Frameworks */,
+				09E07EF2215802E6003FD668 /* Differentiator.framework in Embed Frameworks */,
+				09E07EF6215802E6003FD668 /* RxDataSources.framework in Embed Frameworks */,
+				09E07EF8215802E6003FD668 /* RxSwift.framework in Embed Frameworks */,
+				09E07EEA215802E6003FD668 /* Alamofire.framework in Embed Frameworks */,
+				09E07EEE215802E6003FD668 /* Moya.framework in Embed Frameworks */,
+				09E07EEC215802E6003FD668 /* Result.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0988F7F021568F25007EB6A6 /* CardSort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardSort.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +83,10 @@
 		0988F8242157F4DE007EB6A6 /* DeckOfCardsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckOfCardsAPI.swift; sourceTree = "<group>"; };
 		0988F8262157F51C007EB6A6 /* RxMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxMoya.framework; path = Carthage/Build/iOS/RxMoya.framework; sourceTree = "<group>"; };
 		0988F82B2157FB6E007EB6A6 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
+		0988F83121580212007EB6A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09E07EE5215802DD003FD668 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		09E07EE6215802DD003FD668 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		09E07EFA21580A6F003FD668 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +94,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09E07EE7215802DD003FD668 /* Alamofire.framework in Frameworks */,
+				09E07EE9215802E6003FD668 /* Alamofire.framework in Frameworks */,
+				09E07EF3215802E6003FD668 /* RxCocoa.framework in Frameworks */,
+				09E07EE8215802DD003FD668 /* Result.framework in Frameworks */,
+				09E07EF7215802E6003FD668 /* RxSwift.framework in Frameworks */,
+				09E07EED215802E6003FD668 /* Moya.framework in Frameworks */,
+				09E07EDF215802DD003FD668 /* Differentiator.framework in Frameworks */,
+				09E07EE0215802DD003FD668 /* Moya.framework in Frameworks */,
+				09E07EF1215802E6003FD668 /* Differentiator.framework in Frameworks */,
+				09E07EE1215802DD003FD668 /* RxCocoa.framework in Frameworks */,
+				09E07EE2215802DD003FD668 /* RxDataSources.framework in Frameworks */,
+				09E07EEF215802E6003FD668 /* RxMoya.framework in Frameworks */,
+				09E07EEB215802E6003FD668 /* Result.framework in Frameworks */,
+				09E07EF5215802E6003FD668 /* RxDataSources.framework in Frameworks */,
+				09E07EE3215802DD003FD668 /* RxMoya.framework in Frameworks */,
+				09E07EE4215802DD003FD668 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +143,7 @@
 				0988F8242157F4DE007EB6A6 /* DeckOfCardsAPI.swift */,
 				0988F7FC21568F27007EB6A6 /* LaunchScreen.storyboard */,
 				0988F7FF21568F27007EB6A6 /* Info.plist */,
+				0988F83121580212007EB6A6 /* Assets.xcassets */,
 			);
 			path = CardSort;
 			sourceTree = "<group>";
@@ -83,6 +151,8 @@
 		0988F80521568F91007EB6A6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				09E07EE5215802DD003FD668 /* Alamofire.framework */,
+				09E07EE6215802DD003FD668 /* Result.framework */,
 				0988F82B2157FB6E007EB6A6 /* Moya.framework */,
 				0988F8262157F51C007EB6A6 /* RxMoya.framework */,
 				0988F80621568F91007EB6A6 /* Differentiator.framework */,
@@ -99,6 +169,7 @@
 				0988F8152156938A007EB6A6 /* Suit.swift */,
 				0988F817215693E0007EB6A6 /* Rank.swift */,
 				0988F8192156940E007EB6A6 /* Card.swift */,
+				09E07EFA21580A6F003FD668 /* Deck.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -130,6 +201,7 @@
 				0988F7EC21568F25007EB6A6 /* Sources */,
 				0988F7ED21568F25007EB6A6 /* Frameworks */,
 				0988F7EE21568F25007EB6A6 /* Resources */,
+				09E07EF9215802E6003FD668 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -178,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0988F83221580212007EB6A6 /* Assets.xcassets in Resources */,
 				0988F7FE21568F27007EB6A6 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09E07EFB21580A6F003FD668 /* Deck.swift in Sources */,
 				0988F8212157EBEE007EB6A6 /* CardListViewController.swift in Sources */,
 				0988F818215693E0007EB6A6 /* Rank.swift in Sources */,
 				0988F8252157F4DE007EB6A6 /* DeckOfCardsAPI.swift in Sources */,

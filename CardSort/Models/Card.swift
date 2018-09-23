@@ -20,6 +20,11 @@ public struct Card {
     }
 }
 
+// MARK: - Codable
+extension Card: Codable {
+
+}
+
 // MARK: - Equatable
 extension Card: Equatable {
     public static func ==(lhs: Card, rhs: Card) -> Bool {

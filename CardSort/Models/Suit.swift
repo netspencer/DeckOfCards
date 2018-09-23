@@ -12,6 +12,11 @@ public enum Suit: String {
     case spades, hearts, diamonds, clubs
 }
 
+// MARK: - Codable
+extension Suit: Codable {
+
+}
+
 // MARK: - Comparable
 extension Suit: Comparable {
     public static func <(lhs: Suit, rhs: Suit) -> Bool {

@@ -14,6 +14,11 @@ public enum Rank: Int {
     case jack, queen, king, ace
 }
 
+// MARL: - Codable
+extension Rank: Codable {
+    
+}
+
 // MARK: - Comparable
 extension Rank: Comparable {
     public static func <(lhs: Rank, rhs: Rank) -> Bool {
