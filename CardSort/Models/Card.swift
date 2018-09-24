@@ -11,18 +11,20 @@ import Foundation
 public struct Card {
     let rank: Rank
     let suit: Suit
-    let image: Data
-
-    public init(rank: Rank, suit: Suit, image: Data) {
-        self.rank = rank
-        self.suit = suit
-        self.image = image
-    }
+    let image: String
 }
 
-// MARK: - Codable
-extension Card: Codable {
+// MARK: - API
+extension Card {
+    static func fromAPI(_ value: [String: Any]) -> Card? {
+        guard
+            let image = value["image"] as? String,
+            let rank = value["value"] as? String,
+            let suit = value["suit"] as? String
+            else { return nil }
 
+        return Card(rank: Rank.fromAPI(rank), suit: Suit.fromAPI(suit), image: image)
+    }
 }
 
 // MARK: - Equatable

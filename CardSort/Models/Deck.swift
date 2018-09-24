@@ -13,4 +13,9 @@ struct Deck: Codable {
     var deck_id: String = ""
     var success: Bool = false
     var shuffled: Bool = false
+    var cards: [Card] = []
+
+    enum CodingKeys: String, CodingKey {
+        case remaining, deck_id, success, shuffled
+    }
 }

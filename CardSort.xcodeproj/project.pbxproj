@@ -17,31 +17,21 @@
 		0988F8232157F0DB007EB6A6 /* CardListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0988F8222157F0DB007EB6A6 /* CardListViewModel.swift */; };
 		0988F8252157F4DE007EB6A6 /* DeckOfCardsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0988F8242157F4DE007EB6A6 /* DeckOfCardsAPI.swift */; };
 		0988F83221580212007EB6A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0988F83121580212007EB6A6 /* Assets.xcassets */; };
-		09E07EDF215802DD003FD668 /* Differentiator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F80621568F91007EB6A6 /* Differentiator.framework */; };
-		09E07EE0215802DD003FD668 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F82B2157FB6E007EB6A6 /* Moya.framework */; };
-		09E07EE1215802DD003FD668 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F80821568F91007EB6A6 /* RxCocoa.framework */; };
-		09E07EE2215802DD003FD668 /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F80721568F91007EB6A6 /* RxDataSources.framework */; };
-		09E07EE3215802DD003FD668 /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F8262157F51C007EB6A6 /* RxMoya.framework */; };
-		09E07EE4215802DD003FD668 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F80921568F91007EB6A6 /* RxSwift.framework */; };
-		09E07EE7215802DD003FD668 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E07EE5215802DD003FD668 /* Alamofire.framework */; };
-		09E07EE8215802DD003FD668 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E07EE6215802DD003FD668 /* Result.framework */; };
-		09E07EE9215802E6003FD668 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E07EE5215802DD003FD668 /* Alamofire.framework */; };
 		09E07EEA215802E6003FD668 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09E07EE5215802DD003FD668 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		09E07EEB215802E6003FD668 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E07EE6215802DD003FD668 /* Result.framework */; };
 		09E07EEC215802E6003FD668 /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09E07EE6215802DD003FD668 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		09E07EED215802E6003FD668 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F82B2157FB6E007EB6A6 /* Moya.framework */; };
 		09E07EEE215802E6003FD668 /* Moya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F82B2157FB6E007EB6A6 /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		09E07EEF215802E6003FD668 /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F8262157F51C007EB6A6 /* RxMoya.framework */; };
 		09E07EF0215802E6003FD668 /* RxMoya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F8262157F51C007EB6A6 /* RxMoya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		09E07EF1215802E6003FD668 /* Differentiator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F80621568F91007EB6A6 /* Differentiator.framework */; };
 		09E07EF2215802E6003FD668 /* Differentiator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F80621568F91007EB6A6 /* Differentiator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		09E07EF3215802E6003FD668 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F80821568F91007EB6A6 /* RxCocoa.framework */; };
 		09E07EF4215802E6003FD668 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F80821568F91007EB6A6 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		09E07EF5215802E6003FD668 /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F80721568F91007EB6A6 /* RxDataSources.framework */; };
 		09E07EF6215802E6003FD668 /* RxDataSources.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F80721568F91007EB6A6 /* RxDataSources.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		09E07EF7215802E6003FD668 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F80921568F91007EB6A6 /* RxSwift.framework */; };
 		09E07EF8215802E6003FD668 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0988F80921568F91007EB6A6 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		09E07EFB21580A6F003FD668 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E07EFA21580A6F003FD668 /* Deck.swift */; };
+		09E07EFD21582182003FD668 /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E07EFC21582182003FD668 /* CardTableViewCell.swift */; };
+		09E07EFF21582C60003FD668 /* CardListViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E07EFE21582C60003FD668 /* CardListViewController+DataSource.swift */; };
+		09E07F0321587142003FD668 /* Nuke.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09E07F002158713F003FD668 /* Nuke.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		09E07F0621587345003FD668 /* CardDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E07F0521587345003FD668 /* CardDetailViewController.swift */; };
+		09E07F0821587365003FD668 /* CardDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E07F0721587365003FD668 /* CardDetailViewModel.swift */; };
+		09E07F0C215876D9003FD668 /* Cartography.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09E07F09215876D5003FD668 /* Cartography.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,12 +41,14 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				09E07F0321587142003FD668 /* Nuke.framework in Embed Frameworks */,
 				09E07EF4215802E6003FD668 /* RxCocoa.framework in Embed Frameworks */,
 				09E07EF0215802E6003FD668 /* RxMoya.framework in Embed Frameworks */,
 				09E07EF2215802E6003FD668 /* Differentiator.framework in Embed Frameworks */,
 				09E07EF6215802E6003FD668 /* RxDataSources.framework in Embed Frameworks */,
 				09E07EF8215802E6003FD668 /* RxSwift.framework in Embed Frameworks */,
 				09E07EEA215802E6003FD668 /* Alamofire.framework in Embed Frameworks */,
+				09E07F0C215876D9003FD668 /* Cartography.framework in Embed Frameworks */,
 				09E07EEE215802E6003FD668 /* Moya.framework in Embed Frameworks */,
 				09E07EEC215802E6003FD668 /* Result.framework in Embed Frameworks */,
 			);
@@ -87,6 +79,12 @@
 		09E07EE5215802DD003FD668 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		09E07EE6215802DD003FD668 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		09E07EFA21580A6F003FD668 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		09E07EFC21582182003FD668 /* CardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardTableViewCell.swift; path = CardSort/Scenes/CardTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		09E07EFE21582C60003FD668 /* CardListViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CardListViewController+DataSource.swift"; sourceTree = "<group>"; };
+		09E07F002158713F003FD668 /* Nuke.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nuke.framework; path = Carthage/Build/iOS/Nuke.framework; sourceTree = "<group>"; };
+		09E07F0521587345003FD668 /* CardDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardDetailViewController.swift; path = CardSort/Scenes/CardDetail/CardDetailViewController.swift; sourceTree = SOURCE_ROOT; };
+		09E07F0721587365003FD668 /* CardDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailViewModel.swift; sourceTree = "<group>"; };
+		09E07F09215876D5003FD668 /* Cartography.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cartography.framework; path = Carthage/Build/iOS/Cartography.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,22 +92,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09E07EE7215802DD003FD668 /* Alamofire.framework in Frameworks */,
-				09E07EE9215802E6003FD668 /* Alamofire.framework in Frameworks */,
-				09E07EF3215802E6003FD668 /* RxCocoa.framework in Frameworks */,
-				09E07EE8215802DD003FD668 /* Result.framework in Frameworks */,
-				09E07EF7215802E6003FD668 /* RxSwift.framework in Frameworks */,
-				09E07EED215802E6003FD668 /* Moya.framework in Frameworks */,
-				09E07EDF215802DD003FD668 /* Differentiator.framework in Frameworks */,
-				09E07EE0215802DD003FD668 /* Moya.framework in Frameworks */,
-				09E07EF1215802E6003FD668 /* Differentiator.framework in Frameworks */,
-				09E07EE1215802DD003FD668 /* RxCocoa.framework in Frameworks */,
-				09E07EE2215802DD003FD668 /* RxDataSources.framework in Frameworks */,
-				09E07EEF215802E6003FD668 /* RxMoya.framework in Frameworks */,
-				09E07EEB215802E6003FD668 /* Result.framework in Frameworks */,
-				09E07EF5215802E6003FD668 /* RxDataSources.framework in Frameworks */,
-				09E07EE3215802DD003FD668 /* RxMoya.framework in Frameworks */,
-				09E07EE4215802DD003FD668 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +133,8 @@
 		0988F80521568F91007EB6A6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				09E07F09215876D5003FD668 /* Cartography.framework */,
+				09E07F002158713F003FD668 /* Nuke.framework */,
 				09E07EE5215802DD003FD668 /* Alamofire.framework */,
 				09E07EE6215802DD003FD668 /* Result.framework */,
 				0988F82B2157FB6E007EB6A6 /* Moya.framework */,
@@ -177,6 +161,7 @@
 		0988F81B2157DF68007EB6A6 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				09E07F0421587319003FD668 /* CardDetail */,
 				0988F81C2157DF80007EB6A6 /* CardList */,
 			);
 			path = Scenes;
@@ -187,8 +172,19 @@
 			children = (
 				0988F8202157EBEE007EB6A6 /* CardListViewController.swift */,
 				0988F8222157F0DB007EB6A6 /* CardListViewModel.swift */,
+				09E07EFC21582182003FD668 /* CardTableViewCell.swift */,
+				09E07EFE21582C60003FD668 /* CardListViewController+DataSource.swift */,
 			);
 			path = CardList;
+			sourceTree = "<group>";
+		};
+		09E07F0421587319003FD668 /* CardDetail */ = {
+			isa = PBXGroup;
+			children = (
+				09E07F0521587345003FD668 /* CardDetailViewController.swift */,
+				09E07F0721587365003FD668 /* CardDetailViewModel.swift */,
+			);
+			path = CardDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +259,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				09E07EFB21580A6F003FD668 /* Deck.swift in Sources */,
+				09E07F0621587345003FD668 /* CardDetailViewController.swift in Sources */,
 				0988F8212157EBEE007EB6A6 /* CardListViewController.swift in Sources */,
 				0988F818215693E0007EB6A6 /* Rank.swift in Sources */,
 				0988F8252157F4DE007EB6A6 /* DeckOfCardsAPI.swift in Sources */,
 				0988F81A2156940E007EB6A6 /* Card.swift in Sources */,
+				09E07EFD21582182003FD668 /* CardTableViewCell.swift in Sources */,
+				09E07F0821587365003FD668 /* CardDetailViewModel.swift in Sources */,
+				09E07EFF21582C60003FD668 /* CardListViewController+DataSource.swift in Sources */,
 				0988F81F2157EA95007EB6A6 /* Coordinator.swift in Sources */,
 				0988F8162156938A007EB6A6 /* Suit.swift in Sources */,
 				0988F7F421568F25007EB6A6 /* AppDelegate.swift in Sources */,

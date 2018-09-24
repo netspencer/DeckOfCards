@@ -26,7 +26,10 @@ final class Coordinator {
 extension Coordinator: CardListViewControllerDelegate {
 
     func didSelect(card: Card) {
-        debugPrint("selected \(card)")
+        let cardDetailVC = CardDetailViewController()
+        cardDetailVC.viewModel.card.accept(card)
+        let wrappedVC = UINavigationController(rootViewController: cardDetailVC)
+        self.navigationController.topViewController?.present(wrappedVC, animated: true)
     }
 
 }

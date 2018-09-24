@@ -9,6 +9,7 @@
 import UIKit
 import RxSwift
 import RxCocoa
+import RxDataSources
 
 protocol CardListViewControllerDelegate: class {
     func didSelect(card: Card)
@@ -35,10 +36,23 @@ extension CardListViewController {
 
     private func setup() {
         self.navigationItem.title = "Deck of Cards"
+
+        self.tableView.register(CardTableViewCell.self, forCellReuseIdentifier: "cardCell")
     }
 
     private func bind() {
         viewModel.getNewShuffledDeck()
+
+        viewModel.sectionedDeck
+            .bind(to: tableView.rx.items(dataSource: self.dataSource()))
+            .disposed(by: self.disposeBag)
+
+        tableView.rx.modelSelected(Card.self)
+            .asDriver()
+            .drive(onNext: { [unowned self] card in
+                self.delegate?.didSelect(card: card)
+            })
+            .disposed(by: self.disposeBag)
     }
 
 }

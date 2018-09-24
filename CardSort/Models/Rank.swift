@@ -14,10 +14,40 @@ public enum Rank: Int {
     case jack, queen, king, ace
 }
 
-// MARL: - Codable
-extension Rank: Codable {
-    
+// MARK: - API
+extension Rank {
+    static func fromAPI(_ value: String) -> Rank {
+        switch value {
+        case "2":
+            return Rank.two
+        case "3":
+            return Rank.three
+        case "4":
+            return Rank.four
+        case "5":
+            return Rank.five
+        case "6":
+            return Rank.six
+        case "7":
+            return Rank.seven
+        case "8":
+            return Rank.eight
+        case "9":
+            return Rank.nine
+        case "10":
+            return Rank.ten
+        case "JACK":
+            return Rank.jack
+        case "QUEEN":
+            return Rank.queen
+        case "KING":
+            return Rank.king
+        default:
+            return Rank.ace
+        }
+    }
 }
+
 
 // MARK: - Comparable
 extension Rank: Comparable {

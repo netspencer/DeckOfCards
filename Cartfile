@@ -1,3 +1,5 @@
 github "ReactiveX/RxSwift" ~> 4.0
 github "RxSwiftCommunity/RxDataSources" ~> 3.0
 github "Moya/Moya"
+github "kean/Nuke"
+github "robb/Cartography"

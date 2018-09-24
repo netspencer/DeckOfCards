@@ -12,9 +12,20 @@ public enum Suit: String {
     case spades, hearts, diamonds, clubs
 }
 
-// MARK: - Codable
-extension Suit: Codable {
-
+// MARK: - API
+extension Suit {
+    static func fromAPI(_ value: String) -> Suit {
+        switch value {
+        case "HEARTS":
+            return Suit.hearts
+        case "DIAMONDS":
+            return Suit.diamonds
+        case "CLUBS":
+            return Suit.clubs
+        default:
+            return Suit.spades
+        }
+    }
 }
 
 // MARK: - Comparable
